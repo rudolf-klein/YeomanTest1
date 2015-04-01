@@ -14,6 +14,8 @@ angular.module('yeomanTest1App')
 
     $scope.todos = todosInstore || [];
 
+    $scope.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
+
     $scope.$watch('todos', function () {
       localStorageService.set('todos', $scope.todos)}, true
     )

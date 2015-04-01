@@ -17,7 +17,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.sortable',
-    'LocalStorageModule'
+    'LocalStorageModule',
+    'uiGmapgoogle-maps'
   ])
   .config(function ($routeProvider) {
     $routeProvider
